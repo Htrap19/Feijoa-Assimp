@@ -118,7 +118,9 @@ project "Assimp"
         "assimp/code/**.h",
         "assimp/code/**.cpp",
         "assimp/code/**.inl",
-        "assimp/contrib/irrXML/*"
+        "assimp/contrib/irrXML/*",
+        "assimp/contrib/Open3DGC/*",
+        "assimp/contrib/unzip/*"
     }
 
     filter "system:windows"
